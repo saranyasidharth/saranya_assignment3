@@ -1,0 +1,118 @@
+
+   <nav class="navbar navbar-expand-lg navbar-dark " style=" background-color:#111166">
+ 
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+      <ul class="navbar-nav navbar-right">
+        <a class="nav-link"  routerLink="/"  >Home</a>
+        <a class="nav-link"  routerLink="/books" >Books</a>
+          <a class="nav-link"  routerLink="/authors"  >Authors</a>
+          <a class="nav-link"  routerLink="/login" *ngIf="!_auth.loggedIn()" routerLinkActive="active">Admin login</a>
+          <a class="nav-link"  style="cursor:pointer" *ngIf="_auth.loggedIn()" (click)="logoutUser()">Logout</a>
+      </ul>
+    </div>
+  </nav>   
+
+  <div id="masthead">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Welcome to Digital Library
+            <p class="lead"></p>
+          </h1>
+        </div>
+        <div class="col-md-5">
+          <div class="well well-lg"> 
+            <div class="row">
+              <div class="col-sm-12">
+                
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="top-spacer"> </div>
+        </div>
+      </div> 
+    </div><!-- /cont -->
+    
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body">
+            
+            
+            
+            
+          <!--/stories-->
+         
+<!-- <h3>Welcome to Digital library</h3> -->
+<img class="img" src="https://th.bing.com/th/id/R2f8239bea2180a6fe83e4463fd5407ce?rik=GZ%2fl2x7e56AB0g&riu=http%3a%2f%2fiau-mahabad.ac.ir%2fen%2fwp-content%2fuploads%2f2016%2f10%2fdl.jpg&ehk=QvyY5pqEFflxZcAO5lmRaAtvkgTSN1vNq6ZsaO0CSVQ%3d&risl=&pid=ImgRaw">
+
+
+          
+<!--/stories-->
+
+
+
+
+
+
+</div>
+</div>
+                                                                             
+<img src="/images/ib.jpg" alt="" id="bg">                                       
+                                            
+
+                               
+                                                                      
+<hr>
+        <h1>Follow Us</h1>
+        <div class="btn-group">
+         <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+       <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+       <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="list-inline">
+            <li><i class="icon-facebook icon-2x"></i></li>
+            <li><i class="icon-twitter icon-2x"></i></li>
+            <li><i class="icon-google-plus icon-2x"></i></li>
+            <li><i class="icon-pinterest icon-2x"></i></li>
+          </ul>
+          
+        </div>
+        <!-- <div class="col-sm-6">
+            <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+        </div> -->
+      </div>
+    </div>
+  </footer>
+    <!-- script references -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    
+  
